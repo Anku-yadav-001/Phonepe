@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonepe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: black;text-decoration: underline;">Phonepe System</h1>
+<div class="card">
+    <h2 id="Processing">Processing........</h2>
+    <div id="Successful">
+        <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+          <i class="checkmark">✓</i>
+        </div>
+          <h1>Success</h1> 
+          <p>Payment is Successful <br><span style="color: red; font-weight: 700;"> Fetch balance</span></p>
+        </div>
+   
+
+  
+    <div id="Failed">
+        <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+          <i style="color: red;"> &#x2716;</i>
+        </div>
+          <h1 style="color: red;">Failed!</h1> 
+          <p>For some issue your pament is failed <br> Please try again</p>
+        </div>
+    <button id="paybutton" onclick="paybutton()">Pay</button>
+</div>
+
+</body>
+</html>
+<script src="script.js"></script>
